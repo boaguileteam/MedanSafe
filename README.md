@@ -96,7 +96,7 @@ Pengembangan MedanSafe bertujuan untuk:
 
 ```bash
 # Clone repository
-git clone https://github.com/username/MedanSafe.git
+git clone https://github.com/boaguileteam/MedanSafe.git
 
 # Masuk ke direktori project
 cd MedanSafe

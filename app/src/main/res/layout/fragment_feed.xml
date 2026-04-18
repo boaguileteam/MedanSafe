@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5F9">
+
+    <!-- Header Area: Clean Professional Style (Removed Back Button and "Beranda" text) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_header_feed"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#0A0E1A"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- DECORATIVE CIRCLE -->
+        <View
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="-45dp"
+            android:background="@drawable/cr60bc0392b12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/plus_jakarta_sans"
+            android:text="Laporan Terkini"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_subtitle_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/plus_jakarta_sans"
+            android:text="Kota Medan • Pantau situasi sekitar"
+            android:textColor="#94A3B8"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_feed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Category Filters -->
+    <HorizontalScrollView
+        android:id="@+id/hsv_feed_filters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@id/cl_header_feed">
+
+        <LinearLayout
+            android:id="@+id/ll_filters_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="24dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_filter_all"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_pill"
+                android:backgroundTint="#C0392B"
+                android:text="Semua"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_filter_begal"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/bg_pill"
+                android:backgroundTint="#FFFFFF"
+                android:text="Begal"
+                android:textAllCaps="false"
+                android:textColor="#64748B"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_filter_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/bg_pill"
+                android:backgroundTint="#FFFFFF"
+                android:text="Jalan Gelap"
+                android:textAllCaps="false"
+                android:textColor="#64748B"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_filter_accident"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/bg_pill"
+                android:backgroundTint="#FFFFFF"
+                android:text="Kecelakaan"
+                android:textAllCaps="false"
+                android:textColor="#64748B"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_filter_damaged_road"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/bg_pill"
+                android:backgroundTint="#FFFFFF"
+                android:text="Lainnya"
+                android:textAllCaps="false"
+                android:textColor="#64748B"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Swipe Refresh Layout -->
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_feed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hsv_feed_filters">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_feed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="80dp"
+            tools:listitem="@layout/item_incident" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

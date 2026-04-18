@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MedanSafe" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C0392B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FEE2E2</item>
+        <item name="colorOnPrimaryContainer">#C0392B</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#10B981</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Status bar & Navigation bar setup for professional look -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Notch/Cutout support -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+
+        <!-- Fix for Slider/Tooltip rendering issue -->
+        <item name="tooltipStyle">@style/Widget.Material3.Tooltip</item>
+    </style>
+
+    <style name="Theme.MedanSafe" parent="Base.Theme.MedanSafe" />
+
+    <!-- Splash Theme -->
+    <style name="Theme.App.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_window</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Bottom Sheet Theme -->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Full Screen Dialog with Right-to-Left Animation -->
+    <style name="FullScreenDialogTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimationRightToLeft</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogAnimationRightToLeft">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

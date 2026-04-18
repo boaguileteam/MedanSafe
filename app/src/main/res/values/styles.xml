@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="cr14">
+		<item name="cornerSize">14dp</item>
+	</style>
+
+	<style name="BottomNavStyle"
+		parent="Widget.MaterialComponents.BottomNavigationView">
+		<item name="itemActiveIndicatorStyle">
+			@style/Widget.Material3.BottomNavigationView.ActiveIndicator
+		</item>
+	</style>
+
+	<style name="Widget.Material3.BottomNavigationView.ActiveIndicator">
+		<item name="android:color">@android:color/transparent</item>
+		<item name="shapeAppearance">@style/ShapeAppearance.M3.Comp.NavigationBar.ActiveIndicator.Shape</item>
+		<item name="android:width">0dp</item>
+		<item name="android:height">0dp</item>
+	</style>
+</resources>

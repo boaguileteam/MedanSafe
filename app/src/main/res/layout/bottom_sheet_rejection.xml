@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Alasan Penolakan"
+        android:textColor="#1E293B"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/plus_jakarta_sans"
+        android:text="Berikan alasan yang jelas agar pelapor bisa memperbaiki laporannya"
+        android:textColor="#64748B"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etReason"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_input_red_outline"
+        android:gravity="top"
+        android:hint="Contoh: Foto tidak jelas, lokasi tidak akurat, deskripsi kurang detail..."
+        android:padding="12dp"
+        android:textColor="#1E293B"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBatal"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:backgroundTint="#F1F5F9"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Batal"
+            android:textAllCaps="false"
+            app:cornerRadius="12dp"
+            android:textColor="#64748B" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTolakLaporan"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:text="Tolak Laporan"
+            android:textAllCaps="false"
+            app:backgroundTint="#EF4444"
+            app:cornerRadius="12dp" />
+    </LinearLayout>
+</LinearLayout>

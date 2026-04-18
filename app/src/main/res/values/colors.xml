@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_red">#C0392B</color>
+    <color name="dark_bg">#0A0E1A</color>
+    <color name="splash_bg">#0A0E1A</color>
+    <color name="surface_card">#111827</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Notification Colors -->
+    <color name="notif_unread">#131C2E</color>
+    <color name="notif_read">#0D1117</color>
+
+    <!-- Status & Icon Colors -->
+    <color name="notif_amber">#F59E0B</color>
+    <color name="notif_green">#10B981</color>
+    <color name="notif_red">#E74C3C</color>
+    <color name="notif_blue">#3B82F6</color>
+
+    <!-- Secondary/Text Colors -->
+    <color name="light_gray">#F8F9FA</color>
+    <color name="text_dark">#2C3E50</color>
+    <color name="text_gray">#94A3B8</color>
+
+    <!-- Status Colors -->
+    <color name="success_green">#1E8449</color>
+    <color name="warning_amber">#D4AC0D</color>
+</resources>

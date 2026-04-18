@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_map_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- GPS Warning Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_gps_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📍"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gps_disabled_title"
+                        android:textColor="#1E293B"
+                        android:fontFamily="@font/plus_jakarta_sans_bold"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gps_disabled_msg"
+                        android:textColor="#475569"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/btn_enable_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="6dp"
+                    android:background="@drawable/bg_pill"
+                    android:backgroundTint="#C0392B"
+                    android:text="@string/btn_enable_gps_label"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/plus_jakarta_sans_bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_sos_disabled_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/sos_disabled_label"
+            android:textColor="#64748B"
+            android:textSize="11sp"
+            android:fontFamily="@font/plus_jakarta_sans_bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <!-- Header -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ll_search_mode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="6dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/iv_search_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_search"
+                    android:contentDescription="@string/search_hint"
+                    app:tint="#C0392B" />
+
+                <TextView
+                    android:id="@+id/tv_search_placeholder"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/plus_jakarta_sans_medium"
+                    android:text="@string/search_destination_placeholder"
+                    android:textColor="#64748B"
+                    android:textSize="13sp" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_heatmap_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"
+                    app:thumbTint="#C0392B"
+                    app:trackTint="#FADBD8"
+                    android:contentDescription="@string/heatmap_label" />
+
+                <!-- Vehicle Type Button near Profile -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/btn_vehicle_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp"
+                    android:backgroundTint="@android:color/transparent"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#CBD5E1">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:paddingHorizontal="10dp">
+                        <TextView
+                            android:id="@+id/tv_vehicle_icon_top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🛵"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/tv_selected_vehicle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:text="@string/kereta_label"
+                            android:textColor="#475569"
+                            android:textSize="10sp"
+                            android:fontFamily="@font/plus_jakarta_sans_bold"
+                            tools:ignore="SmallSp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="#E2E8F0" />
+
+                <ImageView
+                    android:id="@+id/iv_profile_home"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person"
+                    android:contentDescription="@string/profile_icon_desc" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Navigation instruction -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_nav_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="78dp"
+            android:visibility="gone"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_navigation_arrow"
+                    android:contentDescription="Navigasi"
+                    app:tint="#C0392B" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_nav_instruction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plus_jakarta_sans_bold"
+                        android:text="@string/nav_instruction_default"
+                        android:textColor="#1E293B"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/tv_nav_safety_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plus_jakarta_sans_medium"
+                        android:text="@string/nav_searching_route"
+                        android:textColor="#16A34A"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/btn_close_nav"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_close"
+                    android:contentDescription="@string/btn_close_desc"
+                    android:padding="2dp"
+                    app:tint="#475569" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Heatmap Legend -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_legend"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toTopOf="@id/cv_security_summary"
+            app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/legend_title"
+                    android:textColor="#1E293B"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/plus_jakarta_sans_bold"
+                    android:layout_marginBottom="6dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+                    <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/cr3bc0392b" android:layout_marginEnd="8dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legend_dangerous_label" android:textColor="#475569" android:textSize="11sp" android:fontFamily="@font/plus_jakarta_sans_semibold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+                    <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/cr3bf59e0b" android:layout_marginEnd="8dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legend_warning_label" android:textColor="#475569" android:textSize="11sp" android:fontFamily="@font/plus_jakarta_sans_semibold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/cr3lr27010b98134d399" android:layout_marginEnd="8dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legend_safe_label" android:textColor="#475569" android:textSize="11sp" android:fontFamily="@font/plus_jakarta_sans_semibold" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Security Summary Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_security_summary"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="72dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#F1F5F9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Handle Area -->
+                <LinearLayout
+                    android:id="@+id/ll_toggle_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="@string/summary_handle_desc">
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="3dp"
+                        android:background="#CBD5E1"
+                        android:backgroundTint="#E2E8F0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_summary_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="14dp"
+                    android:paddingBottom="14dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/medan_city"
+                                    android:textColor="#1E293B"
+                                    android:textSize="14sp"
+                                    android:fontFamily="@font/plus_jakarta_sans_bold" />
+                                <TextView
+                                    android:id="@+id/tv_vehicle_icon_summary"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:text="🛵"
+                                    android:textSize="11sp"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+                            <TextView
+                                android:id="@+id/tv_summary_stats"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/security_level_label"
+                                android:textColor="#475569"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tv_security_label_badge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bg_pill"
+                            android:backgroundTint="#DCFCE7"
+                            android:paddingHorizontal="8dp"
+                            android:paddingVertical="2dp"
+                            android:text="@string/status_safe_upper"
+                            android:textColor="#15803D"
+                            android:textSize="11sp"
+                            android:fontFamily="@font/plus_jakarta_sans_bold" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="#F1F5F9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!-- Begal -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <View android:layout_width="5dp" android:layout_height="5dp" android:background="@drawable/cr3bc0392b" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="@string/cat_begal_label" android:textSize="11sp" android:textColor="#475569" />
+                            <TextView android:id="@+id/tv_count_begal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="0" android:textSize="11sp" android:textColor="#1E293B" android:fontFamily="@font/plus_jakarta_sans_bold" />
+                        </LinearLayout>
+                        <!-- Kecelakaan -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <View android:layout_width="5dp" android:layout_height="5dp" android:background="@drawable/cr3b3b82f6" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="@string/cat_accident_label" android:textSize="11sp" android:textColor="#475569" />
+                            <TextView android:id="@+id/tv_count_kecelakaan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="0" android:textSize="11sp" android:textColor="#1E293B" android:fontFamily="@font/plus_jakarta_sans_bold" />
+                        </LinearLayout>
+                        <!-- Jalan Gelap -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <View android:layout_width="5dp" android:layout_height="5dp" android:background="@drawable/cr3bf59e0b" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="@string/cat_dark_road_label" android:textSize="11sp" android:textColor="#475569" />
+                            <TextView android:id="@+id/tv_count_gelap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="0" android:textSize="11sp" android:textColor="#1E293B" android:fontFamily="@font/plus_jakarta_sans_bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Side Controls -->
+        <LinearLayout
+            android:id="@+id/ll_side_controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="68dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_filter_heatmap"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/heatmap_label">
+                <ImageView
+                    android:id="@+id/iv_filter_heatmap"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_layers"
+                    android:contentDescription="@null"
+                    app:tint="#475569" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_gps"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/desc_gps_button">
+                <ImageView
+                    android:id="@+id/iv_gps_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_gps_location"
+                    android:contentDescription="@null"
+                    app:tint="#475569" />
+            </androidx.cardview.widget.CardView>
+
+            <FrameLayout
+                android:id="@+id/fl_sos_container"
+                android:layout_width="68dp"
+                android:layout_height="68dp">
+                <View
+                    android:id="@+id/v_sos_ring"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:alpha="0"
+                    android:background="@drawable/bg_sos_ring" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_sos_home"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#C0392B"
+                    app:cardCornerRadius="26dp"
+                    app:cardElevation="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="@string/sos">
+                    <TextView
+                        android:id="@+id/tv_sos_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/sos"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/plus_jakarta_sans_bold" />
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <!-- SOS Warning Tooltip -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_sos_tooltip"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@id/ll_side_controls"
+            app:layout_constraintEnd_toEndOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="14dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOS Belum Aktif"
+                    android:textColor="#1E293B"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/plus_jakarta_sans_bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/sos_not_active_msg"
+                    android:textColor="#475569"
+                    android:textSize="11sp" />
+                <TextView
+                    android:id="@+id/btn_add_contact_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/btn_add_now"
+                    android:textColor="#C0392B"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/plus_jakarta_sans_bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- Bottom Sheet Containers -->
+    <FrameLayout
+        android:id="@+id/incident_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
+
+    <FrameLayout
+        android:id="@+id/vehicle_selection_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
+
+    <!-- Bottom Navigation -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:cardElevation="16dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="#FFFFFF"
+            app:itemIconSize="20dp"
+            app:itemIconTint="@color/sl_nav_item"
+            app:itemTextColor="@color/sl_nav_item"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_nav_menu" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

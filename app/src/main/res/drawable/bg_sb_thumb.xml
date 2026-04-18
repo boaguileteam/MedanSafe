@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer Glow / Shadow -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#15000000"/>
+            <size android:width="32dp" android:height="32dp"/>
+        </shape>
+    </item>
+
+    <!-- Main Color Ring (The part that changes color) -->
+    <item android:id="@+id/thumb_color_layer" android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="2dp">
+        <shape android:shape="oval">
+            <solid android:color="#C0392B"/>
+        </shape>
+    </item>
+
+    <!-- White Center Diagram (Clue visual) -->
+    <item android:top="10dp" android:left="10dp" android:right="10dp" android:bottom="10dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+    <!-- Inner Core Dot -->
+    <item android:top="13dp" android:left="13dp" android:right="13dp" android:bottom="13dp">
+        <shape android:shape="oval">
+            <solid android:color="#10000000"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Dark Header -->
+    <View
+        android:id="@+id/viewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#0A0E1A"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Decorative Circle (Absolute Top Right) -->
+    <View
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="-40dp"
+        android:alpha="0.12"
+        android:background="@drawable/bg_google_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Toolbar area -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_back_button_dark"
+        android:padding="10dp"
+        android:src="@drawable/ic_back1"
+        android:contentDescription="Kembali"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/plus_jakarta_sans"
+        android:text="Edit Profil"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+    <!-- Avatar with Edit Icon -->
+    <FrameLayout
+        android:id="@+id/flAvatar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Ubah foto profil"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="55dp"
+            app:cardElevation="4dp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="3dp">
+
+            <ImageView
+                android:id="@+id/iv_avatar_img_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_person"
+                android:background="#F8FAFC"
+                android:padding="20dp"
+                android:contentDescription="@null"
+                app:tint="#CBD5E1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Camera Edit Icon Overlay -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="#C0392B"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp">
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_menu_camera"
+                android:contentDescription="@null"
+                app:tint="#FFFFFF" />
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/btnChangePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Ubah Foto Profil"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flAvatar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_bottom_sheet"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangePhoto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Field Nama -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:text="NAMA LENGKAP"
+                android:textColor="#64748B"
+                android:textSize="11sp"
+                android:letterSpacing="0.05" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/sc0392bsw1cr14"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_person"
+                    android:contentDescription="@null"
+                    app:tint="#C0392B" />
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/plus_jakarta_sans_medium"
+                    android:hint="Nama Anda"
+                    android:inputType="textPersonName"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textColor="#1E293B"
+                    android:textSize="15sp"
+                    android:maxLength="25" />
+            </LinearLayout>
+
+            <!-- Field No Telpon -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:text="NOMOR TELEPON"
+                android:textColor="#64748B"
+                android:textSize="11sp"
+                android:letterSpacing="0.05" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/sc0392bsw1cr14"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_telp"
+                    android:contentDescription="@null"
+                    app:tint="#C0392B" />
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/plus_jakarta_sans_medium"
+                    android:hint="+62"
+                    android:inputType="phone"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textColor="#1E293B"
+                    android:textSize="15sp"
+                    android:maxLength="15" />
+            </LinearLayout>
+
+            <!-- Field Email -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:text="ALAMAT EMAIL"
+                android:textColor="#64748B"
+                android:textSize="11sp"
+                android:letterSpacing="0.05" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/se2e8f0sw1cr14bf8fafc"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_email"
+                    android:contentDescription="@null"
+                    app:tint="#64748B" />
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/plus_jakarta_sans_medium"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:text="email@example.com"
+                    android:textColor="#64748B"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <!-- Status Google -->
+            <LinearLayout
+                android:id="@+id/btnConnectGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/se2e8f0sw1cr14bf8fafc"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="32dp"
+                android:clickable="true"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_google"
+                    android:contentDescription="@null" />
+                <TextView
+                    android:id="@+id/tvGoogleStatusText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/plus_jakarta_sans_medium"
+                    android:text="Metode Login"
+                    android:textColor="#1E293B"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/tvGoogleConnectedBadge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✓ Google"
+                    android:textColor="#10B981"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/plus_jakarta_sans_bold" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSaveChanges"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_button_rounded_red"
+                android:fontFamily="@font/plus_jakarta_sans_bold"
+                android:text="SIMPAN PERUBAHAN"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E1A">
+
+    <!-- Header Section -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clHeader"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Decorative circle -->
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="-40dp"
+            android:alpha="0.1"
+            android:background="@drawable/bg_circle_red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Back Button Square Style -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            app:cardBackgroundColor="#842D2D47"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_back1"
+                app:tint="#FFFFFF" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/plus_jakarta_sans"
+            android:text="Syarat &amp; Ketentuan"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnBack" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Main Content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_bottom_sheet"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/llBottom"
+        app:layout_constraintTop_toBottomOf="@id/clHeader">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Penggunaan Aplikasi"
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="MedanSafe dirancang untuk membantu warga Kota Medan berkendara lebih aman. Aplikasi ini hanya boleh digunakan untuk tujuan keselamatan yang sah. Penyalahgunaan fitur pelaporan untuk menyebarkan informasi palsu dapat dikenakan sanksi sesuai hukum yang berlaku."
+                android:textColor="#64748B"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Akurasi Informasi"
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Data insiden yang ditampilkan di MedanSafe bersumber dari laporan pengguna (crowdsourcing). Kami tidak dapat menjamin keakuratan 100% setiap laporan. Selalu gunakan penilaian pribadi kamu saat berkendara."
+                android:textColor="#64748B"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Fitur SOS Darurat"
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Tombol SOS hanya boleh digunakan dalam situasi darurat nyata. Penggunaan fitur SOS secara berulang tanpa situasi darurat dapat mengakibatkan pemblokiran akun. Tim MedanSafe tidak bertanggung jawab atas keterlambatan respons kontak darurat."
+                android:textColor="#64748B"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Konten Laporan"
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Pengguna bertanggung jawab penuh atas konten laporan yang dikirimkan, termasuk foto dan deskripsi. Laporan yang mengandung konten tidak pantas, SARA, atau informasi palsu akan dihapus dan akun dapat diblokir."
+                android:textColor="#64748B"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Perubahan Layanan"
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="MedanSafe berhak mengubah, menambah, atau menghentikan fitur kapan saja tanpa pemberitahuan sebelumnya. Penggunaan berkelanjutan setelah perubahan dianggap sebagai persetujuan atas syarat yang diperbarui."
+                android:textColor="#64748B"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Berlaku sejak April 2026\nDikembangkan oleh Tim BoaGuile untuk MCC 2026 · UMSU Medan"
+                android:textColor="#94A3B8"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Action Area -->
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="12dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbAgree"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/sl_custom_checkbox"
+                android:minWidth="0dp"
+                android:minHeight="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="Saya telah membaca dan menyetujui Syarat &amp; Ketentuan ini"
+                android:textColor="#1E293B"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAgree"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:alpha="0.5"
+            android:background="@drawable/bg_button_rounded_red"
+            android:enabled="false"
+            android:fontFamily="@font/plus_jakarta_sans"
+            android:text="Setuju &amp; Lanjutkan"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

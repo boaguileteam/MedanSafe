@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Force light theme even in night mode by inheriting from Light theme -->
+    <style name="Base.Theme.MedanSafe" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C0392B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FEE2E2</item>
+        <item name="colorOnPrimaryContainer">#C0392B</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#10B981</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Status bar & Navigation bar setup for professional look -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Notch/Cutout support -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+
+        <!-- Fix for Slider/Tooltip rendering issue -->
+        <item name="tooltipStyle">@style/Widget.Material3.Tooltip</item>
+    </style>
+
+    <style name="Theme.MedanSafe" parent="Base.Theme.MedanSafe" />
+    <style name="Theme.MedanSafe.NoActionBar" parent="Theme.MedanSafe" />
+
+    <!-- Splash Theme forced to Light -->
+    <style name="Theme.App.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_window</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

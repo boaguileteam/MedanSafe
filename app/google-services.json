@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "41032253357",
+    "project_id": "medansafe",
+    "storage_bucket": "medansafe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41032253357:android:3177bd8c3a710b51d8ab24",
+        "android_client_info": {
+          "package_name": "com.medansafe.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41032253357-idqd4390n349u09kriqgjk0hvp63op3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medansafe.app",
+            "certificate_hash": "83170b921f651caafb21bb50e70b54a22634a561"
+          }
+        },
+        {
+          "client_id": "41032253357-lr3rpht9qrpoch5qbgd76aer28qhbkdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuAi6Bg6PjWc8uGpWbnAz1hHLma0USCvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41032253357-lr3rpht9qrpoch5qbgd76aer28qhbkdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

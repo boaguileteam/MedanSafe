@@ -1,0 +1,43 @@
+com.medansafe.app-lifecycle-livedata-core-2.6.2-0 C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b276cae8ac8b22d4fb18c57a343795e\transformed\lifecycle-livedata-core-2.6.2\res
+com.medansafe.app-lifecycle-runtime-2.6.2-1 C:\Users\MyBook Hype\.gradle\caches\transforms-4\0f015e09f591a23518efb96b6b5d51ce\transformed\lifecycle-runtime-2.6.2\res
+com.medansafe.app-activity-1.8.0-2 C:\Users\MyBook Hype\.gradle\caches\transforms-4\142964149104d077b460ec7a6b2a15a2\transformed\activity-1.8.0\res
+com.medansafe.app-lifecycle-viewmodel-2.6.2-3 C:\Users\MyBook Hype\.gradle\caches\transforms-4\27a5e0ddf79117908a165a8813d1e6e4\transformed\lifecycle-viewmodel-2.6.2\res
+com.medansafe.app-startup-runtime-1.1.1-4 C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\res
+com.medansafe.app-browser-1.4.0-5 C:\Users\MyBook Hype\.gradle\caches\transforms-4\3f3bbcb456c6b801d5dc3fcd149b9273\transformed\browser-1.4.0\res
+com.medansafe.app-play-services-basement-18.4.0-6 C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\res
+com.medansafe.app-emoji2-views-helper-1.3.0-7 C:\Users\MyBook Hype\.gradle\caches\transforms-4\58c3fa2799f6afaba86a86df3babe4b2\transformed\emoji2-views-helper-1.3.0\res
+com.medansafe.app-core-ktx-1.13.1-8 C:\Users\MyBook Hype\.gradle\caches\transforms-4\5e32fd27bbd81df98e24b7ffeb1054db\transformed\core-ktx-1.13.1\res
+com.medansafe.app-appcompat-resources-1.7.0-9 C:\Users\MyBook Hype\.gradle\caches\transforms-4\69be2a6f4088562baab8a7b5ffdc9380\transformed\appcompat-resources-1.7.0\res
+com.medansafe.app-lifecycle-viewmodel-savedstate-2.6.2-10 C:\Users\MyBook Hype\.gradle\caches\transforms-4\6b938debde2392140a6d6e71112fb09c\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.medansafe.app-glide-4.16.0-11 C:\Users\MyBook Hype\.gradle\caches\transforms-4\7492841ac9dedbabb986a5a098f130fd\transformed\glide-4.16.0\res
+com.medansafe.app-appcompat-1.7.0-12 C:\Users\MyBook Hype\.gradle\caches\transforms-4\7a1467f1b9733d15511f2e72bac22676\transformed\appcompat-1.7.0\res
+com.medansafe.app-viewpager2-1.0.0-13 C:\Users\MyBook Hype\.gradle\caches\transforms-4\7e85f4f0b1288424325bf090cf74ae07\transformed\viewpager2-1.0.0\res
+com.medansafe.app-emoji2-1.3.0-14 C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\res
+com.medansafe.app-core-runtime-2.2.0-15 C:\Users\MyBook Hype\.gradle\caches\transforms-4\936da040c7504cca3c8e19c3715b19da\transformed\core-runtime-2.2.0\res
+com.medansafe.app-osmdroid-android-6.1.18-16 C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\res
+com.medansafe.app-lifecycle-process-2.6.2-17 C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\res
+com.medansafe.app-savedstate-1.2.1-18 C:\Users\MyBook Hype\.gradle\caches\transforms-4\9df85181cc267f920831893a4c645229\transformed\savedstate-1.2.1\res
+com.medansafe.app-transition-1.5.0-19 C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ef13e6f037df248d327099e954d64b0\transformed\transition-1.5.0\res
+com.medansafe.app-recyclerview-1.1.0-20 C:\Users\MyBook Hype\.gradle\caches\transforms-4\a1dc74fb46b06adf6b45b762047ea26f\transformed\recyclerview-1.1.0\res
+com.medansafe.app-drawerlayout-1.1.1-21 C:\Users\MyBook Hype\.gradle\caches\transforms-4\ae249e0a4d8b885ff30348f5b446b1fd\transformed\drawerlayout-1.1.1\res
+com.medansafe.app-annotation-experimental-1.4.0-22 C:\Users\MyBook Hype\.gradle\caches\transforms-4\b22ddac7528fcc524afc2b89dc69544b\transformed\annotation-experimental-1.4.0\res
+com.medansafe.app-fragment-1.5.7-23 C:\Users\MyBook Hype\.gradle\caches\transforms-4\b2713bc9cb7c8cf237841c7321651c4e\transformed\fragment-1.5.7\res
+com.medansafe.app-play-services-base-18.5.0-24 C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\res
+com.medansafe.app-play-services-auth-21.0.0-25 C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\res
+com.medansafe.app-core-1.13.1-26 C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\res
+com.medansafe.app-material-1.12.0-27 C:\Users\MyBook Hype\.gradle\caches\transforms-4\d08da336e84ec6fbed54f894bf3167e7\transformed\material-1.12.0\res
+com.medansafe.app-swiperefreshlayout-1.1.0-28 C:\Users\MyBook Hype\.gradle\caches\transforms-4\d4460050c111d278dcff83201e83abcb\transformed\swiperefreshlayout-1.1.0\res
+com.medansafe.app-profileinstaller-1.3.1-29 C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\res
+com.medansafe.app-firebase-common-20.4.2-30 C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\res
+com.medansafe.app-coordinatorlayout-1.1.0-31 C:\Users\MyBook Hype\.gradle\caches\transforms-4\ec8b53092f7417491e43af8748b5d6d7\transformed\coordinatorlayout-1.1.0\res
+com.medansafe.app-firebase-messaging-23.4.1-32 C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\res
+com.medansafe.app-cardview-1.0.0-33 C:\Users\MyBook Hype\.gradle\caches\transforms-4\fdbdc57a36b2db07d82db032bae398ea\transformed\cardview-1.0.0\res
+com.medansafe.app-constraintlayout-2.1.4-34 C:\Users\MyBook Hype\.gradle\caches\transforms-4\ff656268239fe37c045958ece4f20655\transformed\constraintlayout-2.1.4\res
+com.medansafe.app-pngs-35 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\generated\res\pngs\debug
+com.medansafe.app-res-36 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\generated\res\processDebugGoogleServices
+com.medansafe.app-resValues-37 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\generated\res\resValues\debug
+com.medansafe.app-packageDebugResources-38 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.medansafe.app-packageDebugResources-39 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.medansafe.app-debug-40 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.medansafe.app-debug-41 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\debug\res
+com.medansafe.app-main-42 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\res

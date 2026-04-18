@@ -1,0 +1,846 @@
+[
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_badge_pending.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_badge_pending.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_btn_add_dashed.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_btn_add_dashed.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_id_circle.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\id_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_send.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_send.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr14bffffff00.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr14bffffff00.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\font_plus_jakarta_sans_bold.ttf.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\font\\plus_jakarta_sans_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_google.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_google.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_profile_menu.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_emergency_contact.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_emergency_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_sos_glow.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_sos_glow.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_mosque.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_mosque.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr40bffffff.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr40bffffff.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_back1.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_back1.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_fragment_report.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_circle_red.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_circle_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_icon_rounded_light_green.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_icon_rounded_light_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr17lr270e74c3cc0392b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr17lr270e74c3cc0392b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_setting.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr160bffffff05.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr160bffffff05.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_check_blank.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_check_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_scbd5e1sw2cr14bf8fafc.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\scbd5e1sw2cr14bf8fafc.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_location.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_fragment_incident_detail.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_eye_off.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_eye_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_sos_ring_red.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_sos_ring_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_dialog_version.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\dialog_version.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_back_button_white.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_back_button_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3bff4d4d.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3bff4d4d.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_danger_gradient.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_danger_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\anim_slide_in_up.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr12lr27010b981059669.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr12lr27010b981059669.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_nav_report.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_nav_report.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\raw_map_style.json.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\raw\\map_style.json"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_search_input_focused.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_search_input_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr5bffffff00.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr5bffffff00.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_nav_history.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_nav_history.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_setting_switch.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_setting_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_marker_orange.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_marker_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff33sw4cr60lr270e74c3cc0392b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff33sw4cr60lr270e74c3cc0392b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_splash_window.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_splash_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr13lr270e74c3cc0392b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr13lr270e74c3cc0392b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_privacy_policy.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_bottom_sheet_forgot_password.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bottom_sheet_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_location_search.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_location_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_admin_verifikasi.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_admin_verifikasi.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3b64748b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3b64748b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_slider_thumb.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_slider_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_check_premium.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_check_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_badge_verified.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_badge_verified.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_gps_location.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_gps_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_lr2700a0e1a111827.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\lr2700a0e1a111827.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_sl_nav_item.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\sl_nav_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_input_red_outline.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_input_red_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_bottom_sheet_complete_profile.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bottom_sheet_complete_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr9bd1fae5.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr9bd1fae5.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_dashed_border.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_dashed_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr10bea4335.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr10bea4335.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sc0392b4dsw1cr12b7b241c99.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sc0392b4dsw1cr12b7b241c99.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_status_badge.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_status_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_icon_rounded_light_red.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_icon_rounded_light_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_marker_red.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_marker_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff24sw2cr76.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff24sw2cr76.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr4lr27010b981f59e0bc0392b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr4lr27010b981f59e0bc0392b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_check_filled.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_check_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr55bffffff00.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr55bffffff00.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff24sw1cr14bffffff0d.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff24sw1cr14bffffff0d.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_add.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_sos_ring.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_sos_ring.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff1csw1cr14bffffff12.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff1csw1cr14bffffff12.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_terms.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_terms.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff1asw1cr88.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff1asw1cr88.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_switch_track_selector.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\switch_track_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr9bfadbd8.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr9bfadbd8.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_dialog_add_contact.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\dialog_add_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff12sw1cr16bffffff0d.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff12sw1cr16bffffff0d.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr99bfef3c7.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr99bfef3c7.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_star.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_risk_score.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_risk_score.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_circle.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_layers.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_layers.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_vehicle_type_dashed.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_vehicle_type_dashed.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr13lr2703b82f62563eb.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr13lr2703b82f62563eb.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr12bffffff.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr12bffffff.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_user_location_dot.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_user_location_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_logo.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_splash_rings.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_splash_rings.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3bf59e0b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3bf59e0b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_profile_glow_ring.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_profile_glow_ring.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_mall.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_mall.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\font_plus_jakarta_sans_semibold.ttf.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\font\\plus_jakarta_sans_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\font_plus_jakarta_sans.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\font\\plus_jakarta_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_marker_green.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_marker_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_sos_glow_thin.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_sos_glow_thin.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_sos_confirm.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_sos_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_incident.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_incident.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_rounded_16.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_rounded_16.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_lr2705c10107b241c6b1f18.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\lr2705c10107b241c6b1f18.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\font_plus_jakarta_sans_medium.ttf.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\font\\plus_jakarta_sans_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_fragment_vehicle_selection.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_vehicle_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_nav_line_indicator.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\nav_line_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff0dsw1cr100.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff0dsw1cr100.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr4be74c3c.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr4be74c3c.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_se2e8f0sw1cr16bf8fafc.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\se2e8f0sw1cr16bf8fafc.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sl_custom_checkbox.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sl_custom_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3lr270f59e0bef9f27.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3lr270f59e0bef9f27.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_bottom_sheet_rejection.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bottom_sheet_rejection.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_campus.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_campus.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sffffff12sw1cr14bffffff12.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sffffff12sw1cr14bffffff12.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sc10b981sw1cr14bf8fafc.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sc10b981sw1cr14bf8fafc.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_beranda.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_beranda.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_admin_activity.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_admin_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr50bc0392b12.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr50bc0392b12.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\font_plus_jakarta_sans_extrabold.ttf.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\font\\plus_jakarta_sans_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_sl_profile_menu.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\sl_profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_slider_thumb.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\slider_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3bc0392b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3bc0392b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_google_circle.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_google_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr12bffffff0d.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr12bffffff0d.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_emergency_contacts.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_emergency_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3bf1f5f9.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3bf1f5f9.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_sl_chip_filter_bg.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\sl_chip_filter_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_pill.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_button_rounded_red.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_button_rounded_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_se2e8f0sw1cr12bf1f5f9.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\se2e8f0sw1cr12bf1f5f9.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sc0392bsw1cr12bfadbd8.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sc0392bsw1cr12bfadbd8.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_sl_chip_filter_text.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\sl_chip_filter_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_select_location.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_select_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_back_button_square.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_back_button_square.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr14lr27010b981059669.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr14lr27010b981059669.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_fragment_feed.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_feed.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\font_plus_jakarta_sans_regular.ttf.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\font\\plus_jakarta_sans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_logo_medansafe.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_logo_medansafe.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\anim_pulse.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\anim\\pulse.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_search_input_normal.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_search_input_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_alert.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_alert.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr14lr270e74c3cc0392b.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr14lr270e74c3cc0392b.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sc0392bsw1cr14.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sc0392bsw1cr14.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_switch_thumb_selector.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\switch_thumb_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr60bc0392b12.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr60bc0392b12.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_sc0392b66sw1cr12.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\sc0392b66sw1cr12.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_incident_detail.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr17lr2703b82f62563eb.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr17lr2703b82f62563eb.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_input_dashed.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_input_dashed.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.medansafe.app-debug-40:/layout_fragment_incident_detail.xml.flat",
+        "source": "com.medansafe.app-main-42:/layout/fragment_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_setting_menu.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_setting_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_comment.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_lr2701118270f1520.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\lr2701118270f1520.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_dashed_rounded_gray.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_dashed_rounded_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_profile_glow.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_profile_glow.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_se2e8f0sw1cr14bf8fafc.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\se2e8f0sw1cr14bf8fafc.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_telp.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_telp.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_hospital.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_hospital.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3lr270c0392be74c3c.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3lr270c0392be74c3c.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_airport.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_airport.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_navigation_arrow.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_navigation_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr99bd1fae5.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr99bd1fae5.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_nav_profile.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_nav_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_bg_btn_add_dashed.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bg_btn_add_dashed.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_nav_home.png.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_nav_home.png"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3b3b82f6.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3b3b82f6.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_seekbar_track.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_seekbar_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_back_button_dark.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_back_button_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\color_nav_item_color.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\color\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_activity_panic.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_panic.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_bg_sb_thumb.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\bg_sb_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\layout_item_admin_laporan.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_admin_laporan.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-debug-40:\\drawable_cr3lr27010b98134d399.xml.flat",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\drawable\\cr3lr27010b98134d399.xml"
+    }
+]

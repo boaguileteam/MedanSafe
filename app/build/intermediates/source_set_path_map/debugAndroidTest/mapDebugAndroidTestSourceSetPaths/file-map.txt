@@ -1,0 +1,5 @@
+com.medansafe.app.test.app-core-1.6.1-0 C:\Users\MyBook Hype\.gradle\caches\transforms-4\72fa606cc1b7ce836110168217d476c1\transformed\core-1.6.1\res
+com.medansafe.app.test.app-androidTest-1 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\generated\res\resValues\androidTest\debug
+com.medansafe.app.test.app-mergeDebugAndroidTestResources-2 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.medansafe.app.test.app-mergeDebugAndroidTestResources-3 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.medansafe.app.test.app-debugAndroidTest-4 D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

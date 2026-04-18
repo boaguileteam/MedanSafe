@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_terms.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_terms.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_emergency_contact.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_emergency_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_comment.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\fragment_feed.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_feed.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_risk_score.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_risk_score.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_notification.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_panic.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_panic.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_search.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_admin_dashboard.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_setting_menu.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_setting_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\bottom_sheet_forgot_password.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bottom_sheet_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_profile_menu.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_incident.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_incident.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_privacy_policy.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_sos_confirm.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_sos_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\bottom_sheet_complete_profile.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bottom_sheet_complete_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_emergency_contacts.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_emergency_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\fragment_vehicle_selection.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_vehicle_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_admin_laporan.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_admin_laporan.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\dialog_version.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\dialog_version.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_location_search.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_location_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\bottom_sheet_rejection.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\bottom_sheet_rejection.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_select_location.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_select_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\dialog_add_contact.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\dialog_add_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_admin_verifikasi.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_admin_verifikasi.xml"
+    },
+    {
+        "merged": "com.medansafe.app-mergeDebugResources-39:/layout/fragment_incident_detail.xml",
+        "source": "com.medansafe.app-main-42:/layout/fragment_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_setting_switch.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_setting_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\item_admin_activity.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\item_admin_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\fragment_incident_detail.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_incident_detail.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-mergeDebugResources-39:\\layout\\fragment_report.xml",
+        "source": "C:\\Users\\MyBook Hype\\.gradle\\daemon\\8.7\\com.medansafe.app-main-42:\\layout\\fragment_report.xml"
+    }
+]

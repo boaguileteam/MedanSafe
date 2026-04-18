@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E1A"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:context="com.medansafe.app.SOSConfirmActivity">
+
+    <!-- Decorative Top Glow (Paling Belakang / Background) -->
+    <View
+        android:id="@+id/view_top_glow_bg"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="-220dp"
+        android:alpha="0.2"
+        android:background="@drawable/bg_sos_glow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_top_glow_overlay"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-160dp"
+        android:alpha="0.25"
+        android:background="@drawable/bg_sos_glow"
+        android:backgroundTint="#10B981"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toTopOf="@id/layout_bottom_actions"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="60dp"
+            android:paddingBottom="32dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <!-- Success Animation Container -->
+            <FrameLayout
+                android:id="@+id/icon_container"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <!-- Particles for Burst Effect -->
+                <View android:id="@+id/p1" android:layout_width="8dp" android:layout_height="8dp" android:alpha="0" android:layout_gravity="center" android:background="@drawable/bg_google_circle" android:backgroundTint="#10B981" />
+                <View android:id="@+id/p2" android:layout_width="6dp" android:layout_height="6dp" android:alpha="0" android:layout_gravity="center" android:background="@drawable/bg_google_circle" android:backgroundTint="#FFFFFF" />
+                <View android:id="@+id/p3" android:layout_width="10dp" android:layout_height="10dp" android:alpha="0" android:layout_gravity="center" android:background="@drawable/bg_google_circle" android:backgroundTint="#10B981" />
+                <View android:id="@+id/p4" android:layout_width="7dp" android:layout_height="7dp" android:alpha="0" android:layout_gravity="center" android:background="@drawable/bg_google_circle" android:backgroundTint="#FFFFFF" />
+                <View android:id="@+id/p5" android:layout_width="9dp" android:layout_height="9dp" android:alpha="0" android:layout_gravity="center" android:background="@drawable/bg_google_circle" android:backgroundTint="#10B981" />
+                <View android:id="@+id/p6" android:layout_width="6dp" android:layout_height="6dp" android:alpha="0" android:layout_gravity="center" android:background="@drawable/bg_google_circle" android:backgroundTint="#FFFFFF" />
+
+                <!-- Layer 5: Huge Pulsing Glow (No clipping) -->
+                <View
+                    android:id="@+id/view_glow_outer"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:alpha="0"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="#10B981" />
+
+                <!-- Layer 4: Inner Pulse -->
+                <View
+                    android:id="@+id/view_glow"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:alpha="0"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="#10B981" />
+
+                <!-- Layer 3: Ring -->
+                <View
+                    android:id="@+id/view_ring_green"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="#10B981" />
+
+                <!-- Layer 2: White Core -->
+                <View
+                    android:id="@+id/cv_check_bg"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="#FFFFFF" />
+
+                <!-- Layer 1: Checkmark -->
+                <ImageView
+                    android:id="@+id/iv_check_icon"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_check_premium"
+                    android:contentDescription="@string/desc_success"
+                    app:tint="#10B981" />
+
+                <!-- Layer 0: Shockwave Burst -->
+                <View
+                    android:id="@+id/view_ring_stroke"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_circle"
+                    android:alpha="0"
+                    android:backgroundTint="#FFFFFF" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:gravity="center"
+                android:text="@string/sos_success_title"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/icon_container" />
+
+            <TextView
+                android:id="@+id/tv_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:gravity="center"
+                android:text="@string/sos_success_subtitle"
+                android:textColor="#94A3B8"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+            <!-- Card GPS Info -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_location_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:cardBackgroundColor="#111827"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp"
+                app:strokeColor="#1F2937"
+                app:strokeWidth="1dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_subtitle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_label_gps"
+                        android:textColor="#4B5563"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.1" />
+
+                    <TextView
+                        android:id="@+id/tv_location_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_detecting_address"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_coordinates"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_default_coords"
+                        android:textColor="#94A3B8"
+                        android:textSize="12sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="16dp"
+                        android:background="#1F2937" />
+
+                    <TextView
+                        android:id="@+id/tv_timestamp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_processing_time"
+                        android:textColor="#64748B"
+                        android:textSize="11sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Status List -->
+            <LinearLayout
+                android:id="@+id/layout_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/card_location_detail">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/plus_jakarta_sans"
+                    android:text="@string/sos_status_label"
+                    android:textColor="#4B5563"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/layout_contact_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/cr12bffffff0d"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_pill"
+                        android:backgroundTint="#C0392B"
+                        android:gravity="center"
+                        android:text="A"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/plus_jakarta_sans_bold"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_name_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_contact_name_placeholder"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_pill"
+                        android:backgroundTint="#1A10B981"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="@string/sos_status_sent"
+                        android:textColor="#10B981"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_contact_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/cr12bffffff0d"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_pill"
+                        android:backgroundTint="#C0392B"
+                        android:gravity="center"
+                        android:text="B"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/plus_jakarta_sans_bold"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_name_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_contact_name_placeholder"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_status_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_pill"
+                        android:backgroundTint="#1A10B981"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="@string/sos_status_sent"
+                        android:textColor="#10B981"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_contact_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/cr12bffffff0d"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_pill"
+                        android:backgroundTint="#C0392B"
+                        android:gravity="center"
+                        android:text="C"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/plus_jakarta_sans_bold"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_name_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/plus_jakarta_sans"
+                        android:text="@string/sos_contact_name_placeholder"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_status_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_pill"
+                        android:backgroundTint="#1A10B981"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="@string/sos_status_sent"
+                        android:textColor="#10B981"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Actions Area -->
+    <LinearLayout
+        android:id="@+id/layout_bottom_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0A0E1A"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_call_emergency"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#C0392B"
+            android:fontFamily="@font/plus_jakarta_sans"
+            android:text="@string/sos_btn_call_emergency"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:cornerRadius="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_share_location"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#1F2937"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="@string/sos_btn_share"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_back_to_map"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#10B981"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:text="@string/sos_btn_done"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

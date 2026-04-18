@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Kontak"
+        android:textSize="12sp"
+        android:textColor="#64748B"
+        android:fontFamily="@font/plus_jakarta_sans_bold" />
+
+    <EditText
+        android:id="@+id/etContactName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_search_input_normal"
+        android:hint="Masukkan nama"
+        android:paddingHorizontal="12dp"
+        android:textSize="14sp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nomor Telepon"
+        android:textSize="12sp"
+        android:textColor="#64748B"
+        android:fontFamily="@font/plus_jakarta_sans_bold" />
+
+    <EditText
+        android:id="@+id/etContactPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_search_input_normal"
+        android:hint="+628..."
+        android:paddingHorizontal="12dp"
+        android:textSize="14sp"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Atau pilih cara cepat:"
+        android:textSize="11sp"
+        android:textColor="#94A3B8" />
+
+    <LinearLayout
+        android:id="@+id/btnPickFromPhonebook"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_dashed_border"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_person"
+            app:tint="#C0392B"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Pilih dari Kontak HP"
+            android:textColor="#C0392B"
+            android:textSize="13sp"
+            android:fontFamily="@font/plus_jakarta_sans_bold" />
+    </LinearLayout>
+
+</LinearLayout>

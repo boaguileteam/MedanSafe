@@ -1,0 +1,649 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.medansafe.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:6:5-81
+13-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:7:5-65
+14-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:8:5-77
+15-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.READ_CONTACTS" />
+16-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:9:5-72
+16-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:9:22-69
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:10:5-66
+17-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:10:22-63
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:11:5-67
+18-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:11:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:12:5-75
+19-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:12:22-72
+20
+21    <uses-feature
+21-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:14:5-88
+22        android:name="android.hardware.telephony"
+22-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:14:19-60
+23        android:required="false" />
+23-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:14:61-85
+24    <uses-feature
+24-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:15:5-85
+25        android:name="android.hardware.camera"
+25-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:15:19-57
+26        android:required="false" />
+26-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:15:58-82
+27
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+28-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+31    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+31-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+31-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+32
+33    <permission
+33-->[androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+34        android:name="com.medansafe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.medansafe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+38
+39    <supports-screens
+39-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+40        android:anyDensity="true"
+40-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+41        android:largeScreens="true"
+41-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+42        android:normalScreens="true" />
+42-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+43
+44    <uses-feature
+44-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+45        android:name="android.hardware.location.network"
+45-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+46        android:required="false" />
+46-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+47    <uses-feature
+47-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+48        android:name="android.hardware.location.gps"
+48-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+49        android:required="false" />
+49-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+50    <uses-feature
+50-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+51        android:name="android.hardware.wifi"
+51-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+52        android:required="false" />
+52-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+53
+54    <application
+54-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:17:5-70:19
+55        android:allowBackup="true"
+55-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:18:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+57        android:debuggable="true"
+58        android:extractNativeLibs="false"
+59        android:icon="@mipmap/ic_launcher"
+59-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:19:9-43
+60        android:label="MedanSafe"
+60-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:20:9-34
+61        android:roundIcon="@mipmap/ic_launcher_round"
+61-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:21:9-54
+62        android:supportsRtl="true"
+62-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:22:9-35
+63        android:theme="@style/Theme.MedanSafe" >
+63-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:23:9-47
+64        <activity
+64-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:25:9-33:20
+65            android:name="com.medansafe.app.SplashActivity"
+65-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:26:13-43
+66            android:exported="true"
+66-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:27:13-36
+67            android:theme="@style/Theme.App.Splash" >
+67-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:28:13-52
+68            <intent-filter>
+68-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:29:13-32:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:30:17-69
+69-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:30:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:31:17-77
+71-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:31:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:35:9-76
+75            android:name="com.medansafe.app.LoginActivity"
+75-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:35:19-48
+76            android:exported="false" />
+76-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:35:49-73
+77        <activity
+77-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:36:9-79
+78            android:name="com.medansafe.app.RegisterActivity"
+78-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:36:19-51
+79            android:exported="false" />
+79-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:36:52-76
+80        <activity
+80-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:37:9-75
+81            android:name="com.medansafe.app.HomeActivity"
+81-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:37:19-47
+82            android:exported="false" />
+82-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:37:48-72
+83        <activity
+83-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:38:9-77
+84            android:name="com.medansafe.app.SearchActivity"
+84-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:38:19-49
+85            android:exported="false" />
+85-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:38:50-74
+86        <activity
+86-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:39:9-85
+87            android:name="com.medansafe.app.SelectLocationActivity"
+87-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:39:19-57
+88            android:exported="false" />
+88-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:39:58-82
+89        <activity
+89-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:40:9-80
+90            android:name="com.medansafe.app.PanicModeActivity"
+90-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:40:19-52
+91            android:exported="false" />
+91-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:40:53-77
+92        <activity
+92-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:41:9-81
+93            android:name="com.medansafe.app.SOSConfirmActivity"
+93-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:41:19-53
+94            android:exported="false" />
+94-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:41:54-78
+95        <activity
+95-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:42:9-80
+96            android:name="com.medansafe.app.RiskScoreActivity"
+96-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:42:19-52
+97            android:exported="false" />
+97-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:42:53-77
+98        <activity
+98-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:43:9-78
+99            android:name="com.medansafe.app.HistoryActivity"
+99-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:43:19-50
+100            android:exported="false" />
+100-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:43:51-75
+101        <activity
+101-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:44:9-85
+102            android:name="com.medansafe.app.IncidentDetailActivity"
+102-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:44:19-57
+103            android:exported="false" />
+103-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:44:58-82
+104        <activity
+104-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:45:9-88
+105            android:name="com.medansafe.app.EmergencyContactsActivity"
+105-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:45:19-60
+106            android:exported="false" />
+106-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:45:61-85
+107        <activity
+107-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:46:9-79
+108            android:name="com.medansafe.app.SettingsActivity"
+108-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:46:19-51
+109            android:exported="false" />
+109-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:46:52-76
+110        <activity
+110-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:47:9-85
+111            android:name="com.medansafe.app.AdminDashboardActivity"
+111-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:47:19-57
+112            android:exported="false" />
+112-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:47:58-82
+113        <activity
+113-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:48:9-86
+114            android:name="com.medansafe.app.AdminVerifikasiActivity"
+114-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:48:19-58
+115            android:exported="false" />
+115-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:48:59-83
+116        <activity
+116-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:49:9-82
+117            android:name="com.medansafe.app.EditProfileActivity"
+117-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:49:19-54
+118            android:exported="false" />
+118-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:49:55-79
+119        <activity
+119-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:50:9-85
+120            android:name="com.medansafe.app.ForgotPasswordActivity"
+120-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:50:19-57
+121            android:exported="false" />
+121-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:50:58-82
+122        <activity
+122-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:52:9-55:52
+123            android:name="com.medansafe.app.PrivacyPolicyActivity"
+123-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:53:13-50
+124            android:exported="false"
+124-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:54:13-37
+125            android:screenOrientation="portrait" />
+125-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:55:13-49
+126        <activity
+126-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:57:9-60:52
+127            android:name="com.medansafe.app.TermsActivity"
+127-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:58:13-42
+128            android:exported="false"
+128-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:59:13-37
+129            android:screenOrientation="portrait" />
+129-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:60:13-49
+130
+131        <service
+131-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:62:9-68:19
+132            android:name="com.medansafe.app.MedanSafeFirebaseService"
+132-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:63:13-53
+133            android:exported="false" >
+133-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:64:13-37
+134            <intent-filter>
+134-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:65:13-67:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:66:17-78
+135-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:66:25-75
+136            </intent-filter>
+137        </service>
+138        <service
+138-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:9:9-15:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:10:13-84
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:11:13-37
+142            <meta-data
+142-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:12:13-14:85
+143                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+143-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:13:17-129
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:14:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+146                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+146-->[com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:13:17-125
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:14:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:26:13-28:85
+149                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
+149-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:27:17-129
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:28:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+152                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+152-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+155                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+155-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:17:13-19:85
+158                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+158-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:18:17-122
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:19:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:20:13-22:85
+161                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+161-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:21:17-111
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:22:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+164                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+164-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+167                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+167-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+170                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+170-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+173                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+173-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:25:13-27:85
+176                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+176-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:26:17-120
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:27:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:28:13-30:85
+179                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+179-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:29:17-117
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:30:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+182                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+182-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+185                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+185-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+188                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+188-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+191                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+191-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+194                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+194-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+196        </service>
+197
+198        <activity
+198-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+199            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+199-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+200            android:excludeFromRecents="true"
+200-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+201            android:exported="true"
+201-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+202            android:launchMode="singleTask"
+202-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+203-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+204            <intent-filter>
+204-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+205                <action android:name="android.intent.action.VIEW" />
+205-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+205-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+206
+207                <category android:name="android.intent.category.DEFAULT" />
+207-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+207-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+208                <category android:name="android.intent.category.BROWSABLE" />
+208-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+208-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+209
+210                <data
+210-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+211                    android:host="firebase.auth"
+211-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+212                    android:path="/"
+212-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+213                    android:scheme="genericidp" />
+213-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+214            </intent-filter>
+215        </activity>
+216        <activity
+216-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+217            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+217-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+218            android:excludeFromRecents="true"
+218-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+219            android:exported="true"
+219-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+220            android:launchMode="singleTask"
+220-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+221-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+222            <intent-filter>
+222-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+223                <action android:name="android.intent.action.VIEW" />
+223-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+223-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+224
+225                <category android:name="android.intent.category.DEFAULT" />
+225-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+225-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+226                <category android:name="android.intent.category.BROWSABLE" />
+226-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+226-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+227
+228                <data
+228-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+229                    android:host="firebase.auth"
+229-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+230                    android:path="/"
+230-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+231                    android:scheme="recaptcha" />
+231-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+232            </intent-filter>
+233        </activity>
+234
+235        <receiver
+235-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+236            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+236-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+237            android:exported="true"
+237-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+238            android:permission="com.google.android.c2dm.permission.SEND" >
+238-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+239            <intent-filter>
+239-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:33:13-35:29
+240                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+240-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:17-81
+240-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:25-78
+241            </intent-filter>
+242
+243            <meta-data
+243-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+244                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+244-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+245                android:value="true" />
+245-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+246        </receiver>
+247        <!--
+248             FirebaseMessagingService performs security checks at runtime,
+249             but set to not exported to explicitly avoid allowing another app to call it.
+250        -->
+251        <service
+251-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+252            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+252-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+253            android:directBootAware="true"
+253-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+254            android:exported="false" >
+254-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+255            <intent-filter android:priority="-500" >
+255-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:65:13-67:29
+256                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+256-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:66:17-78
+256-->D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:66:25-75
+257            </intent-filter>
+258        </service>
+259
+260        <provider
+260-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+261            android:name="com.google.firebase.provider.FirebaseInitProvider"
+261-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+262            android:authorities="com.medansafe.app.firebaseinitprovider"
+262-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+263            android:directBootAware="true"
+263-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+264            android:exported="false"
+264-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+265            android:initOrder="100" />
+265-->[com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+266
+267        <activity
+267-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+268            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+268-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+269            android:excludeFromRecents="true"
+269-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+270            android:exported="false"
+270-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+271-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+272        <!--
+273            Service handling Google Sign-In user revocation. For apps that do not integrate with
+274            Google Sign-In, this service will never be started.
+275        -->
+276        <service
+276-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+277            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+277-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+278            android:exported="true"
+278-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+279            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+279-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+280            android:visibleToInstantApps="true" />
+280-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+281
+282        <activity
+282-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+283            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+283-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+284            android:exported="false"
+284-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+285            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+285-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+286
+287        <meta-data
+287-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+288            android:name="com.google.android.gms.version"
+288-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+289            android:value="@integer/google_play_services_version" />
+289-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+290
+291        <provider
+291-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+292            android:name="androidx.startup.InitializationProvider"
+292-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+293            android:authorities="com.medansafe.app.androidx-startup"
+293-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+294            android:exported="false" >
+294-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+295            <meta-data
+295-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+296                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+296-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+297                android:value="androidx.startup" />
+297-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+298            <meta-data
+298-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+299                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+299-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+300                android:value="androidx.startup" />
+300-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+301            <meta-data
+301-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+302                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+303                android:value="androidx.startup" />
+303-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+304        </provider>
+305
+306        <receiver
+306-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+307            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+307-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+308            android:directBootAware="false"
+308-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+309            android:enabled="true"
+309-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+310            android:exported="true"
+310-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+311            android:permission="android.permission.DUMP" >
+311-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+312            <intent-filter>
+312-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+313                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+313-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+313-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+314            </intent-filter>
+315            <intent-filter>
+315-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+316                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+316-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+316-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+317            </intent-filter>
+318            <intent-filter>
+318-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+319                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+319-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+319-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+320            </intent-filter>
+321            <intent-filter>
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+322                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+323            </intent-filter>
+324        </receiver>
+325
+326        <service
+326-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+327            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+327-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+328            android:exported="false" >
+328-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+329            <meta-data
+329-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+330                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+330-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+331                android:value="cct" />
+331-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+332        </service>
+333        <service
+333-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+334            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+334-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+335            android:exported="false"
+335-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+336            android:permission="android.permission.BIND_JOB_SERVICE" >
+336-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+337        </service>
+338
+339        <receiver
+339-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+340            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+340-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+341            android:exported="false" />
+341-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+342    </application>
+343
+344</manifest>

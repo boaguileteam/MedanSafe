@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="dark_bg">#0A0E1A</color>
+    <color name="light_gray">#F8F9FA</color>
+    <color name="notif_amber">#F59E0B</color>
+    <color name="notif_blue">#3B82F6</color>
+    <color name="notif_green">#10B981</color>
+    <color name="notif_read">#0D1117</color>
+    <color name="notif_red">#E74C3C</color>
+    <color name="notif_unread">#131C2E</color>
+    <color name="primary_red">#C0392B</color>
+    <color name="splash_bg">#0A0E1A</color>
+    <color name="success_green">#1E8449</color>
+    <color name="surface_card">#111827</color>
+    <color name="text_dark">#2C3E50</color>
+    <color name="text_gray">#94A3B8</color>
+    <color name="warning_amber">#D4AC0D</color>
+    <color name="white">#FFFFFF</color>
+    <item name="iv_avatar_img" type="id"/>
+    <string name="add_photo">Tambah Foto</string>
+    <string name="admin_activity_report_in">Laporan %1$s Masuk</string>
+    <string name="admin_activity_user_joined">Pengguna Baru Daftar</string>
+    <string name="admin_activity_verified">Laporan Diverifikasi</string>
+    <string name="admin_btn_logout_panel">Log Out Panel Admin</string>
+    <string name="admin_btn_verif_label">Verifikasi Laporan</string>
+    <string name="admin_dashboard_subtitle">Control Center MedanSafe</string>
+    <string name="admin_dashboard_title">Admin Panel</string>
+    <string name="admin_label_total_reports">Total Laporan</string>
+    <string name="admin_label_users">Pengguna</string>
+    <string name="admin_label_verified">Terverifikasi</string>
+    <string name="admin_label_waiting">Menunggu</string>
+    <string name="admin_menu_management">MENU MANAJEMEN</string>
+    <string name="admin_recent_activity">AKTIVITAS TERBARU</string>
+    <string name="admin_stats_label">STATISTIK REAL-TIME</string>
+    <string name="admin_tag_verified">VERIFIED</string>
+    <string name="admin_waiting_review_format">%1$d laporan menunggu review</string>
+    <string name="agree_to">Saya menyetujui </string>
+    <string name="already_have_account">Sudah punya akun? </string>
+    <string name="app_name">MedanSafe</string>
+    <string name="back_press_exit">Tekan sekali lagi untuk keluar</string>
+    <string name="bs_badge_active">PELAPOR AKTIF</string>
+    <string name="bs_badge_contributor">KONTRIBUTOR</string>
+    <string name="bs_badge_developer">OFFICIAL DEVELOPER</string>
+    <string name="bs_badge_guardian">PENGAWAL MEDAN</string>
+    <string name="bs_badge_new">ANGGOTA BARU</string>
+    <string name="bs_danger_label">TINGKAT BAHAYA</string>
+    <string name="bs_no_description">Tidak ada keterangan.</string>
+    <string name="bs_no_photo">Tidak ada foto</string>
+    <string name="bs_report_here">Laporkan di Sini</string>
+    <string name="bs_unknown_time">Waktu tidak diketahui</string>
+    <string name="bs_upvote_format">Upvote (%1$d)</string>
+    <string name="btn_add_now">Tambah Sekarang —></string>
+    <string name="btn_close_desc">Tutup</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_enable_gps_label">AKTIFKAN</string>
+    <string name="btn_google">Lanjutkan dengan Google</string>
+    <string name="btn_login">MASUK</string>
+    <string name="btn_logout">Keluar dari Akun</string>
+    <string name="btn_register">DAFTAR</string>
+    <string name="btn_send_report">KIRIM LAPORAN</string>
+    <string name="btn_upvote_label">Upvote</string>
+    <string name="btn_upvote_with_count">Upvote (%1$d)</string>
+    <string name="cat_accident">Kecelakaan</string>
+    <string name="cat_accident_label">Kecelakaan</string>
+    <string name="cat_begal">Begal</string>
+    <string name="cat_begal_label">Begal</string>
+    <string name="cat_damaged_road">Lainnya</string>
+    <string name="cat_dark_road">Jalan Gelap</string>
+    <string name="cat_dark_road_label">Gelap</string>
+    <string name="danger_high">Tinggi</string>
+    <string name="danger_high_label">Tinggi (Begal/Sajam)</string>
+    <string name="danger_low">Rendah</string>
+    <string name="danger_medium">Sedang</string>
+    <string name="danger_warn_label">Waspada (Rawan)</string>
+    <string name="default_location_desc">Medan Sunggal · GPS otomatis</string>
+    <string name="default_location_name">Jl. Gatot Subroto</string>
+    <string name="default_web_client_id" translatable="false">41032253357-lr3rpht9qrpoch5qbgd76aer28qhbkdd.apps.googleusercontent.com</string>
+    <string name="desc_back_icon">Kembali</string>
+    <string name="desc_camera_icon">Ikon Kamera</string>
+    <string name="desc_email_icon">Ikon Email</string>
+    <string name="desc_gps_button">Lokasi Saya</string>
+    <string name="desc_lock_icon">Ikon Kunci</string>
+    <string name="desc_logo">Logo Aplikasi</string>
+    <string name="desc_name_icon">Ikon Nama</string>
+    <string name="desc_navigation_icon">Navigasi</string>
+    <string name="desc_phone_icon">Ikon Telepon</string>
+    <string name="desc_profile">Foto Profil</string>
+    <string name="desc_report_icon">Ikon Laporan</string>
+    <string name="desc_send_comment">Kirim Komentar</string>
+    <string name="desc_show_password">Tampilkan Password</string>
+    <string name="desc_success">Berhasil</string>
+    <string name="desc_verif_icon">Ikon Verifikasi</string>
+    <string name="detail_danger_score_format">Bahaya: %1$d/5</string>
+    <string name="detail_risk_score_value_format">%1$d/5</string>
+    <string name="detail_title_format">%1$s — %2$s</string>
+    <string name="distance_format">%.1f km</string>
+    <string name="duration_minutes_format">%1$d menit</string>
+    <string name="emergency_contacts_saved_format">KONTAK TERSIMPAN (%1$d/3)</string>
+    <string name="error_empty_auth">Email dan Password tidak boleh kosong</string>
+    <string name="error_failed_with_msg">Gagal: %1$s</string>
+    <string name="error_google_failed">Gagal login Google: %1$s</string>
+    <string name="error_google_login">Gagal masuk dengan Google</string>
+    <string name="error_google_sync">Gagal sinkronisasi data Google</string>
+    <string name="error_login_failed">Login Gagal: %1$s</string>
+    <string name="error_whatsapp_not_found">WhatsApp tidak terpasang</string>
+    <string name="fastest_route_to_format">Rute Tercepat ke %1$s</string>
+    <string name="feed_nav_home">Beranda</string>
+    <string name="feed_subtitle">Kota Medan • Pantau situasi sekitar</string>
+    <string name="feed_title">Insiden Terbaru</string>
+    <string name="feed_updated_at_format">Kota Medan • Diperbarui pukul %1$s</string>
+    <string name="filter_all">Semua</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="gcm_defaultSenderId" translatable="false">41032253357</string>
+    <string name="google_api_key" translatable="false">AIzaSyDuAi6Bg6PjWc8uGpWbnAz1hHLma0USCvw</string>
+    <string name="google_app_id" translatable="false">1:41032253357:android:3177bd8c3a710b51d8ab24</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDuAi6Bg6PjWc8uGpWbnAz1hHLma0USCvw</string>
+    <string name="google_storage_bucket" translatable="false">medansafe.firebasestorage.app</string>
+    <string name="gps_disabled_msg">Aktifkan lokasi untuk menggunakan MedanSafe</string>
+    <string name="gps_disabled_title">GPS Tidak Aktif</string>
+    <string name="heatmap_active">Heatmap Aktif</string>
+    <string name="heatmap_label">Heatmap</string>
+    <string name="heatmap_mode_active">MODE HEATMAP AKTIF</string>
+    <string name="hint_confirm_password">Ulangi password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_enter_email">Masukkan email Anda</string>
+    <string name="hint_enter_phone">Masukkan nomor HP Anda</string>
+    <string name="hint_full_name">Nama Lengkap</string>
+    <string name="hint_mention_category">Sebutkan kategori…</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_min">Min. 8 karakter</string>
+    <string name="hint_phone">+62 8xx-xxxx-xxxx</string>
+    <string name="history_stats_format">%1$d laporan • %2$d terverifikasi</string>
+    <string name="incident">Insiden</string>
+    <string name="incident_score_format">Skor: %1$d</string>
+    <string name="incident_time_default">Baru saja</string>
+    <string name="incident_upvote_format">%1$d upvote</string>
+    <string name="kereta_label">Kereta</string>
+    <string name="label_account_settings">PENGATURAN AKUN</string>
+    <string name="label_back">Kembali</string>
+    <string name="label_confirm_password">KONFIRMASI PASSWORD</string>
+    <string name="label_danger_level">TINGKAT BAHAYA</string>
+    <string name="label_destination">Tujuan</string>
+    <string name="label_detected_location">LOKASI TERDETEKSI</string>
+    <string name="label_email">EMAIL</string>
+    <string name="label_full_name">NAMA LENGKAP</string>
+    <string name="label_incident_category">KATEGORI INSIDEN</string>
+    <string name="label_live">LIVE</string>
+    <string name="label_password">PASSWORD</string>
+    <string name="label_phone">NO. TELEPON </string>
+    <string name="label_photo_optional">FOTO (OPSIONAL)</string>
+    <string name="label_points">POIN</string>
+    <string name="label_reports">LAPORAN</string>
+    <string name="label_user_tier_new">WARGA BARU</string>
+    <string name="label_verified">TERVERIFIKASI</string>
+    <string name="legend_danger">LEGENDA BAHAYA</string>
+    <string name="legend_dangerous">Berbahaya</string>
+    <string name="legend_dangerous_label">Berbahaya</string>
+    <string name="legend_safe">Aman</string>
+    <string name="legend_safe_label">Aman</string>
+    <string name="legend_title">LEGENDA BAHAYA</string>
+    <string name="legend_warning">Waspada</string>
+    <string name="legend_warning_label">Waspada</string>
+    <string name="location">Lokasi</string>
+    <string name="location_address_placeholder">Alamat lokasi…</string>
+    <string name="log_in_now">Masuk sekarang</string>
+    <string name="login_here">Masuk</string>
+    <string name="login_subtitle">Aman bepergian di Kota Medan</string>
+    <string name="login_title">Masuk ke\nAkun Anda</string>
+    <string name="login_with_google">Lanjutkan dengan Google</string>
+    <string name="medan_citizen">Warga Medan</string>
+    <string name="medan_city">Kota Medan</string>
+    <string name="menu_emergency_contacts">Kontak Darurat</string>
+    <string name="menu_emergency_desc">Kelola nomor darurat &amp; SOS</string>
+    <string name="menu_history_desc">Lihat status pengaduan kamu</string>
+    <string name="menu_history_title">Riwayat Laporan</string>
+    <string name="menu_notifications_desc">Pengaturan pemberitahuan</string>
+    <string name="menu_notifications_title">Notifikasi</string>
+    <string name="menu_settings_desc">Privasi, keamanan &amp; data</string>
+    <string name="menu_settings_title">Pengaturan</string>
+    <string name="mobil_label">Mobil</string>
+    <string name="msg_contact_admin">Hubungi admin MedanSafe.</string>
+    <string name="nav_instruction_default">Ke Lokasi</string>
+    <string name="nav_instruction_straight">Lurus sejauh 200m</string>
+    <string name="nav_safety_detected">Rute Teraman Terdeteksi</string>
+    <string name="nav_searching_route">Mencari rute…</string>
+    <string name="no_account">Belum punya akun? </string>
+    <string name="notif_empty_state">Belum ada notifikasi</string>
+    <string name="notif_filter_all">Semua</string>
+    <string name="notif_filter_emergency">Darurat</string>
+    <string name="notif_filter_incident">Insiden</string>
+    <string name="notif_filter_verification">Verifikasi</string>
+    <string name="notif_mark_all_read">Tandai Semua Dibaca</string>
+    <string name="notif_title">Notifikasi</string>
+    <string name="or_login_with">atau masuk dengan</string>
+    <string name="panic_btn_cancel">BATALKAN</string>
+    <string name="panic_contacts_connected_live">KONTAK TERHUBUNG (LIVE)</string>
+    <string name="panic_contacts_label">KONTAK DARURAT</string>
+    <string name="panic_detecting">Mendeteksi lokasi…</string>
+    <string name="panic_instruction">Klik untuk kirim lokasi GPS ke kontak</string>
+    <string name="panic_main_title">Butuh\nBantuan?</string>
+    <string name="panic_mode_label">MODE DARURAT</string>
+    <string name="panic_no_contacts_connected">BELUM ADA KONTAK TERHUBUNG</string>
+    <string name="panic_no_emergency_contacts">BELUM ADA KONTAK DARURAT</string>
+    <string name="panic_please_wait">Mohon tunggu sebentar</string>
+    <string name="panic_press_label">TEKAN</string>
+    <string name="panic_press_to_send">Tekan untuk kirim</string>
+    <string name="panic_sending">MENGIRIM...</string>
+    <string name="panic_sos_instruction">Tekan tombol untuk mengirimkan lokasi GPS ke kontak darurat kamu</string>
+    <string name="panic_sos_label">SOS</string>
+    <string name="panic_syncing_contacts">SINKRONISASI KONTAK...</string>
+    <string name="panic_waiting_gps">Menunggu Sinyal GPS...</string>
+    <string name="photo_added_success">Foto berhasil ditambahkan</string>
+    <string name="photo_help_text">Membantu validasi laporan</string>
+    <string name="placeholder_dash">--</string>
+    <string name="popular_locations_title">LOKASI POPULER MEDAN</string>
+    <string name="profile_active_reporter">PELAPOR AKTIF</string>
+    <string name="profile_icon_desc">Profil</string>
+    <string name="project_id" translatable="false">medansafe</string>
+    <string name="register_now">Daftar Sekarang</string>
+    <string name="register_subtitle">Bergabung komunitas aman Medan</string>
+    <string name="register_title">Buat Akun\nBaru</string>
+    <string name="report_error_desc_empty">Deskripsi tidak boleh kosong</string>
+    <string name="report_failed_toast">Gagal mengirim laporan</string>
+    <string name="report_loc_updated">Lokasi GPS diperbarui otomatis</string>
+    <string name="report_nav_path">Peta Utama / Lapor</string>
+    <string name="report_subtitle">Bantu warga Medan tetap aman ❤️</string>
+    <string name="report_success_toast">Laporan Terkirim! +10 Poin ditambahkan.</string>
+    <string name="report_title">Laporkan Insiden</string>
+    <string name="report_warning_footer">Laporan palsu dapat dikenakan sanksi.\nGunakan fitur ini dengan bijak.</string>
+    <string name="risk_dest_name_format">%1$s</string>
+    <string name="risk_route_info_format">%1$s • Est. %2$s</string>
+    <string name="risk_score_value_format">%1$d</string>
+    <string name="route_to_format">Rute ke %1$s</string>
+    <string name="safest_route_to_format">Rute Teraman ke %1$s</string>
+    <string name="safety_score_format">Skor Keamanan: %1$d</string>
+    <string name="search_destination_placeholder">Cari tujuan…</string>
+    <string name="search_hint">Cari lokasi di Medan…</string>
+    <string name="search_history_title">PENCARIAN TERAKHIR</string>
+    <string name="search_icon_desc">Ikon Cari</string>
+    <string name="search_result_title">Hasil Pencarian</string>
+    <string name="security_level_label">Tingkat Keamanan</string>
+    <string name="security_status">Status Keamanan</string>
+    <string name="sos">SOS</string>
+    <string name="sos_btn_call_emergency">Hubungi 110 / 112</string>
+    <string name="sos_btn_done">Selesai</string>
+    <string name="sos_btn_share">Bagikan</string>
+    <string name="sos_contact_name_placeholder">Nama Kontak</string>
+    <string name="sos_coordinates_format">%1$.4f°N, %2$.4f°E</string>
+    <string name="sos_default_coords">0.000°N, 0.000°E</string>
+    <string name="sos_detecting_address">Mendeteksi alamat...</string>
+    <string name="sos_disabled_label">SOS NONAKTIF</string>
+    <string name="sos_label_gps">KOORDINAT GPS</string>
+    <string name="sos_not_active_msg">Tambah kontak darurat dulu untuk menggunakan SOS</string>
+    <string name="sos_not_active_title">SOS Belum Aktif</string>
+    <string name="sos_processing_time">Memproses waktu...</string>
+    <string name="sos_sent_at_format">Terkirim: %1$s</string>
+    <string name="sos_share_chooser_title">Bagikan Lokasi Darurat</string>
+    <string name="sos_share_message_format">DARURAT MEDANSAFE!\n\nLokasi saya saat ini:\n%1$s\n\nCek di Google Maps:\n%2$s</string>
+    <string name="sos_share_text_format">DARURAT! Lokasi saya: %1$s. GPS: https://www.google.com/maps?q=%2$f,%3$f</string>
+    <string name="sos_status_label">STATUS PENGIRIMAN</string>
+    <string name="sos_status_sent">✓ Terkirim</string>
+    <string name="sos_subtitle_contacts_format">Pesan darurat telah sampai ke %1$d kontak aman</string>
+    <string name="sos_subtitle_fallback">Pesan darurat terkirim ke pusat keamanan</string>
+    <string name="sos_success_subtitle">Pesan darurat telah sampai ke kontak aman</string>
+    <string name="sos_success_title">Lokasi Berhasil Dikirim!</string>
+    <string name="status_aman">AMAN</string>
+    <string name="status_berbahaya">BERBAHAYA</string>
+    <string name="status_dangerous"> Berbahaya</string>
+    <string name="status_safe"> Aman</string>
+    <string name="status_safe_upper">AMAN</string>
+    <string name="status_warning"> Waspada</string>
+    <string name="status_waspada">WASPADA</string>
+    <string name="success_reset_email">Instruksi reset dikirim ke email Anda!</string>
+    <string name="summary_handle_desc">Tampilkan detail ringkasan</string>
+    <string name="terms_and_conditions">Syarat &amp; Ketentuan</string>
+    <string name="terms_btn_agree_close">Setuju &amp; Tutup</string>
+    <string name="terms_btn_agree_continue">Setuju &amp; Lanjutkan</string>
+    <string name="title_account_disabled">Akun Dinonaktifkan</string>
+    <string name="upvote_count_format">%1$d upvote</string>
+    <string name="wa_forgot_password_msg">Halo Admin MedanSafe, saya lupa password akun saya.\nNomor HP: %1$s\nMohon bantuannya untuk reset kata sandi.</string>
+    <string name="your_location">Lokasi Anda</string>
+    <style name="Base.Theme.MedanSafe" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">#C0392B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FEE2E2</item>
+        <item name="colorOnPrimaryContainer">#C0392B</item>
+
+        
+        <item name="colorSecondary">#10B981</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        
+        <item name="android:windowLayoutInDisplayCutoutMode" ns1:targetApi="o_mr1">shortEdges</item>
+
+        
+        <item name="tooltipStyle">@style/Widget.Material3.Tooltip</item>
+    </style>
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+		<item name="itemActiveIndicatorStyle">
+			@style/Widget.Material3.BottomNavigationView.ActiveIndicator
+		</item>
+	</style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="DialogAnimationRightToLeft">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="FullScreenDialogTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimationRightToLeft</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.App.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_window</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.MedanSafe" parent="Base.Theme.MedanSafe"/>
+    <style name="Widget.Material3.BottomNavigationView.ActiveIndicator">
+		<item name="android:color">@android:color/transparent</item>
+		<item name="shapeAppearance">@style/ShapeAppearance.M3.Comp.NavigationBar.ActiveIndicator.Shape</item>
+		<item name="android:width">0dp</item>
+		<item name="android:height">0dp</item>
+	</style>
+    <style name="cr14">
+		<item name="cornerSize">14dp</item>
+	</style>
+</resources>

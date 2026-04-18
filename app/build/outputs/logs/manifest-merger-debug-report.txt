@@ -1,0 +1,1022 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b86724b7279a64051f3396b5f359a333\transformed\viewbinding-8.3.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3a2a032b4a16c177d98affad7e57689f\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5a3dcf3f23a59a404fe9f72e24374615\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d08da336e84ec6fbed54f894bf3167e7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ff656268239fe37c045958ece4f20655\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\69be2a6f4088562baab8a7b5ffdc9380\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7a1467f1b9733d15511f2e72bac22676\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7492841ac9dedbabb986a5a098f130fd\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c5e70bcecc4985c386dd3988c13efcbc\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f71388e23ecfe7c1a1d62a7ffd083dd0\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a6beb2cd8a55bc1143f961a51ac68260\transformed\play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8715ad3998b4901e50ecea2803f3e7c3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0a14812f0e0deeebaa47b9b2e80c4fa2\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\26d2f2cabf37f48fa127de0980624efc\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f914da841b554c20917c4fac4248de5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b44d508d035fa48cc504afe5724f490\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\62314e7bcac3f98fe1b6871f84c83e5b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c4b7fef6fbc9558663202af0f7676706\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fcf16eabeed876341d3798d3b4e7fc58\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7e85f4f0b1288424325bf090cf74ae07\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b2713bc9cb7c8cf237841c7321651c4e\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\142964149104d077b460ec7a6b2a15a2\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d4460050c111d278dcff83201e83abcb\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5e32fd27bbd81df98e24b7ffeb1054db\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ef13e6f037df248d327099e954d64b0\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3eb73e62aa2d9be2b3e0d96a05015f7c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\52165ce5845e343815cae2bf10d0d845\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\6355e3dbabec5b26e71b805c1e55b779\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\58c3fa2799f6afaba86a86df3babe4b2\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ae249e0a4d8b885ff30348f5b446b1fd\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ec8b53092f7417491e43af8748b5d6d7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d89c5233b74db529a882a13ff54ac445\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\af139004d79eaa77b70de530e0966604\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3f3bbcb456c6b801d5dc3fcd149b9273\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\857afae0c95d755c855af95ac054e934\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a1dc74fb46b06adf6b45b762047ea26f\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\31fec10a1dbcb220e541a2aec9cd4d80\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\27a5e0ddf79117908a165a8813d1e6e4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b276cae8ac8b22d4fb18c57a343795e\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0f015e09f591a23518efb96b6b5d51ce\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\6b938debde2392140a6d6e71112fb09c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9df85181cc267f920831893a4c645229\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:2:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5490002ce22261bdbb67266794c406b7\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88e30033529b1afa1ae1e248c18cad98\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\445a49a1dad153833e3909d0169d7f03\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\63f15b36726e861b37e34d96bbf13a7f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3c2cb52843650922bd0fddac52c93097\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d7c09c544a8336b4599dd9e63db87a2c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fdbdc57a36b2db07d82db032bae398ea\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9880be8546f34ad159bb5c090e8507f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\760848d348471002ebe15601257b60c1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ab054c57646944712dd32c9d11e39d9\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\27328445137e17e246009ccb8e8b4303\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\936da040c7504cca3c8e19c3715b19da\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ac8cee22cd583198c99e2d91ff3d6fc4\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4bac76417d756648b827b2680a2356e2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b22ddac7528fcc524afc2b89dc69544b\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\bf07d629707152526d7ac73f1a5a2922\transformed\grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cff5e4676dc4c5c90a07343566198ee2\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:8:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:9:22-69
+uses-permission#android.permission.VIBRATE
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:12:22-72
+uses-feature#android.hardware.telephony
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:14:5-88
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:14:61-85
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:14:19-60
+uses-feature#android.hardware.camera
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:15:5-85
+	android:required
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:15:58-82
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:15:19-57
+application
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:17:5-70:19
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:17:5-70:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3a2a032b4a16c177d98affad7e57689f\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3a2a032b4a16c177d98affad7e57689f\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5a3dcf3f23a59a404fe9f72e24374615\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5a3dcf3f23a59a404fe9f72e24374615\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d08da336e84ec6fbed54f894bf3167e7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d08da336e84ec6fbed54f894bf3167e7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ff656268239fe37c045958ece4f20655\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ff656268239fe37c045958ece4f20655\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a6beb2cd8a55bc1143f961a51ac68260\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a6beb2cd8a55bc1143f961a51ac68260\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0a14812f0e0deeebaa47b9b2e80c4fa2\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0a14812f0e0deeebaa47b9b2e80c4fa2\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\26d2f2cabf37f48fa127de0980624efc\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\26d2f2cabf37f48fa127de0980624efc\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f914da841b554c20917c4fac4248de5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f914da841b554c20917c4fac4248de5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\62314e7bcac3f98fe1b6871f84c83e5b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\62314e7bcac3f98fe1b6871f84c83e5b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c4b7fef6fbc9558663202af0f7676706\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c4b7fef6fbc9558663202af0f7676706\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fcf16eabeed876341d3798d3b4e7fc58\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fcf16eabeed876341d3798d3b4e7fc58\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9880be8546f34ad159bb5c090e8507f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9880be8546f34ad159bb5c090e8507f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+	android:extractNativeLibs
+		INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:20:9-34
+	android:roundIcon
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:23:9-47
+activity#com.medansafe.app.SplashActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:25:9-33:20
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:26:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.medansafe.app.LoginActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:35:9-76
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:35:49-73
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:35:19-48
+activity#com.medansafe.app.RegisterActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:36:9-79
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:36:52-76
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.medansafe.app.HomeActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:37:9-75
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:37:48-72
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:37:19-47
+activity#com.medansafe.app.SearchActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:38:9-77
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:38:50-74
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:38:19-49
+activity#com.medansafe.app.SelectLocationActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:39:9-85
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:39:58-82
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:39:19-57
+activity#com.medansafe.app.PanicModeActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:40:9-80
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:40:53-77
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:40:19-52
+activity#com.medansafe.app.SOSConfirmActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:41:9-81
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:41:54-78
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:41:19-53
+activity#com.medansafe.app.RiskScoreActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:42:9-80
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:42:53-77
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:42:19-52
+activity#com.medansafe.app.HistoryActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:43:9-78
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:43:51-75
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:43:19-50
+activity#com.medansafe.app.IncidentDetailActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:44:9-85
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:44:58-82
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:44:19-57
+activity#com.medansafe.app.EmergencyContactsActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:45:9-88
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:45:61-85
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:45:19-60
+activity#com.medansafe.app.SettingsActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:46:9-79
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:46:52-76
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:46:19-51
+activity#com.medansafe.app.AdminDashboardActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:47:9-85
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:47:58-82
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:47:19-57
+activity#com.medansafe.app.AdminVerifikasiActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:48:9-86
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:48:59-83
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:48:19-58
+activity#com.medansafe.app.EditProfileActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:49:9-82
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:49:55-79
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:49:19-54
+activity#com.medansafe.app.ForgotPasswordActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:50:9-85
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:50:58-82
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:50:19-57
+activity#com.medansafe.app.PrivacyPolicyActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:55:13-49
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:53:13-50
+activity#com.medansafe.app.TermsActivity
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:57:9-60:52
+	android:screenOrientation
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:60:13-49
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:58:13-42
+service#com.medansafe.app.MedanSafeFirebaseService
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:62:9-68:19
+	android:exported
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:63:13-53
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:65:13-67:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:66:17-78
+	android:name
+		ADDED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml:66:25-75
+uses-sdk
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b86724b7279a64051f3396b5f359a333\transformed\viewbinding-8.3.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b86724b7279a64051f3396b5f359a333\transformed\viewbinding-8.3.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3a2a032b4a16c177d98affad7e57689f\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3a2a032b4a16c177d98affad7e57689f\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5a3dcf3f23a59a404fe9f72e24374615\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5a3dcf3f23a59a404fe9f72e24374615\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d08da336e84ec6fbed54f894bf3167e7\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d08da336e84ec6fbed54f894bf3167e7\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ff656268239fe37c045958ece4f20655\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ff656268239fe37c045958ece4f20655\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\69be2a6f4088562baab8a7b5ffdc9380\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\69be2a6f4088562baab8a7b5ffdc9380\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7a1467f1b9733d15511f2e72bac22676\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7a1467f1b9733d15511f2e72bac22676\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7492841ac9dedbabb986a5a098f130fd\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7492841ac9dedbabb986a5a098f130fd\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c5e70bcecc4985c386dd3988c13efcbc\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c5e70bcecc4985c386dd3988c13efcbc\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f71388e23ecfe7c1a1d62a7ffd083dd0\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f71388e23ecfe7c1a1d62a7ffd083dd0\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a6beb2cd8a55bc1143f961a51ac68260\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a6beb2cd8a55bc1143f961a51ac68260\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8715ad3998b4901e50ecea2803f3e7c3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8715ad3998b4901e50ecea2803f3e7c3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0a14812f0e0deeebaa47b9b2e80c4fa2\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0a14812f0e0deeebaa47b9b2e80c4fa2\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\26d2f2cabf37f48fa127de0980624efc\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\26d2f2cabf37f48fa127de0980624efc\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f914da841b554c20917c4fac4248de5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f914da841b554c20917c4fac4248de5e\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b44d508d035fa48cc504afe5724f490\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b44d508d035fa48cc504afe5724f490\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\62314e7bcac3f98fe1b6871f84c83e5b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\62314e7bcac3f98fe1b6871f84c83e5b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c4b7fef6fbc9558663202af0f7676706\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c4b7fef6fbc9558663202af0f7676706\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fcf16eabeed876341d3798d3b4e7fc58\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fcf16eabeed876341d3798d3b4e7fc58\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7e85f4f0b1288424325bf090cf74ae07\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\7e85f4f0b1288424325bf090cf74ae07\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b2713bc9cb7c8cf237841c7321651c4e\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b2713bc9cb7c8cf237841c7321651c4e\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\142964149104d077b460ec7a6b2a15a2\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\142964149104d077b460ec7a6b2a15a2\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d4460050c111d278dcff83201e83abcb\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d4460050c111d278dcff83201e83abcb\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5e32fd27bbd81df98e24b7ffeb1054db\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5e32fd27bbd81df98e24b7ffeb1054db\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ef13e6f037df248d327099e954d64b0\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ef13e6f037df248d327099e954d64b0\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3eb73e62aa2d9be2b3e0d96a05015f7c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3eb73e62aa2d9be2b3e0d96a05015f7c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\52165ce5845e343815cae2bf10d0d845\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\52165ce5845e343815cae2bf10d0d845\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\6355e3dbabec5b26e71b805c1e55b779\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\6355e3dbabec5b26e71b805c1e55b779\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\58c3fa2799f6afaba86a86df3babe4b2\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\58c3fa2799f6afaba86a86df3babe4b2\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ae249e0a4d8b885ff30348f5b446b1fd\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ae249e0a4d8b885ff30348f5b446b1fd\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ec8b53092f7417491e43af8748b5d6d7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ec8b53092f7417491e43af8748b5d6d7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d89c5233b74db529a882a13ff54ac445\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d89c5233b74db529a882a13ff54ac445\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\af139004d79eaa77b70de530e0966604\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\af139004d79eaa77b70de530e0966604\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3f3bbcb456c6b801d5dc3fcd149b9273\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3f3bbcb456c6b801d5dc3fcd149b9273\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\857afae0c95d755c855af95ac054e934\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\857afae0c95d755c855af95ac054e934\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a1dc74fb46b06adf6b45b762047ea26f\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\a1dc74fb46b06adf6b45b762047ea26f\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\31fec10a1dbcb220e541a2aec9cd4d80\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\31fec10a1dbcb220e541a2aec9cd4d80\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\27a5e0ddf79117908a165a8813d1e6e4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\27a5e0ddf79117908a165a8813d1e6e4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b276cae8ac8b22d4fb18c57a343795e\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0b276cae8ac8b22d4fb18c57a343795e\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0f015e09f591a23518efb96b6b5d51ce\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\0f015e09f591a23518efb96b6b5d51ce\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\6b938debde2392140a6d6e71112fb09c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\6b938debde2392140a6d6e71112fb09c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9df85181cc267f920831893a4c645229\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9df85181cc267f920831893a4c645229\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5490002ce22261bdbb67266794c406b7\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\5490002ce22261bdbb67266794c406b7\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88e30033529b1afa1ae1e248c18cad98\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88e30033529b1afa1ae1e248c18cad98\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\445a49a1dad153833e3909d0169d7f03\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\445a49a1dad153833e3909d0169d7f03\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\63f15b36726e861b37e34d96bbf13a7f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\63f15b36726e861b37e34d96bbf13a7f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3c2cb52843650922bd0fddac52c93097\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3c2cb52843650922bd0fddac52c93097\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d7c09c544a8336b4599dd9e63db87a2c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\d7c09c544a8336b4599dd9e63db87a2c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fdbdc57a36b2db07d82db032bae398ea\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\fdbdc57a36b2db07d82db032bae398ea\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9880be8546f34ad159bb5c090e8507f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9880be8546f34ad159bb5c090e8507f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\760848d348471002ebe15601257b60c1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\760848d348471002ebe15601257b60c1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ab054c57646944712dd32c9d11e39d9\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9ab054c57646944712dd32c9d11e39d9\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\27328445137e17e246009ccb8e8b4303\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\27328445137e17e246009ccb8e8b4303\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\936da040c7504cca3c8e19c3715b19da\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\936da040c7504cca3c8e19c3715b19da\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ac8cee22cd583198c99e2d91ff3d6fc4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ac8cee22cd583198c99e2d91ff3d6fc4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4bac76417d756648b827b2680a2356e2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4bac76417d756648b827b2680a2356e2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b22ddac7528fcc524afc2b89dc69544b\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b22ddac7528fcc524afc2b89dc69544b\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\bf07d629707152526d7ac73f1a5a2922\transformed\grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\bf07d629707152526d7ac73f1a5a2922\transformed\grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cff5e4676dc4c5c90a07343566198ee2\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cff5e4676dc4c5c90a07343566198ee2\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\PROJECT DAN REFERENSI\PROJECT MOBILE APPS\MedanSafe\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:10:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\cf389293fe3f2c736f336c6f3f4a754b\transformed\firebase-firestore-ktx-24.10.0\AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\37ae64eddc54a46f18878d509c675e89\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:13:17-125
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3ef3a1bd0950544b4c191ba8550add65\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:27:17-129
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\132f026b9b62fd009d6ef706d23179b4\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\bf07d629707152526d7ac73f1a5a2922\transformed\grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\bf07d629707152526d7ac73f1a5a2922\transformed\grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\67be2d3510608b17cf71d8fe0772d849\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\54c8e1094488da6b399411f46c51477c\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\18ed4f0a05a14b2b0a2dd1d1b2c60cee\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\630006aa50218db8243b0772ea4a002a\transformed\play-services-cloud-messaging-17.1.0\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ed7e743a4b3b51fa5b916d7608edbf1a\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9c2f825f056854f6e625e56fdf081679\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\581d41a40c3f6899f2516a271735ffcd\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f5e4d28cf37bc92d4dfdedfaadca37b5\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\f1d205dc677114a5b3c4cbcf90bcaac1\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dfb4c3cc21bdbb402c561813e74ac489\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\ba4c5211bbe3d97d22f82beb081ee4af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\b6dd3c8830b54e2f743bb1397b84d3a6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\4845f66709f4c047df69a45ca280b746\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\3263a8bf8f81473c0c20187bf4025ef9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\MyBook Hype\.gradle\caches\transforms-4\8b4ebaeed0f55e110bea26dad8439a79\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.medansafe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.medansafe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\c1758b580e96f737751948f2cbb4d254\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\MyBook Hype\.gradle\caches\transforms-4\9a063e2f4b10f0f93fb6aeb2e76f6c85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\MyBook Hype\.gradle\caches\transforms-4\97fb0e44647635a2778076e95403db7a\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MyBook Hype\.gradle\caches\transforms-4\da6db914dd1cc65468a5c2d3e656348c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MyBook Hype\.gradle\caches\transforms-4\dca79f08bdd1e3778350637a49f0f639\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\78aaa2051473db33dea6397c84effe46\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MyBook Hype\.gradle\caches\transforms-4\88d1d462e617171e74d89e03b47d922a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132

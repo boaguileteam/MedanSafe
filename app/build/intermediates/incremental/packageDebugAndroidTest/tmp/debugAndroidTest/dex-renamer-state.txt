@@ -1,0 +1,13 @@
+#Sat Apr 18 11:33:14 WIB 2026
+base.0=D\:\\PROJECT DAN REFERENSI\\PROJECT MOBILE APPS\\MedanSafe\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\PROJECT DAN REFERENSI\\PROJECT MOBILE APPS\\MedanSafe\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=D\:\\PROJECT DAN REFERENSI\\PROJECT MOBILE APPS\\MedanSafe\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\1\\classes.dex
+base.3=D\:\\PROJECT DAN REFERENSI\\PROJECT MOBILE APPS\\MedanSafe\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\6\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=1/classes.dex
+path.3=6/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

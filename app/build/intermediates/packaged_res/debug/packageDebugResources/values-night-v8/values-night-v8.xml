@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="Base.Theme.MedanSafe" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">#C0392B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FEE2E2</item>
+        <item name="colorOnPrimaryContainer">#C0392B</item>
+
+        
+        <item name="colorSecondary">#10B981</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        
+        <item name="android:windowLayoutInDisplayCutoutMode" ns1:targetApi="o_mr1">shortEdges</item>
+
+        
+        <item name="tooltipStyle">@style/Widget.Material3.Tooltip</item>
+    </style>
+    <style name="Theme.App.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_window</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.MedanSafe" parent="Base.Theme.MedanSafe"/>
+    <style name="Theme.MedanSafe.NoActionBar" parent="Theme.MedanSafe"/>
+</resources>
